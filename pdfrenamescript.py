@@ -3,7 +3,7 @@ import requests
 import re
 
 # Define the path to the directory containing the PDF files
-pdf_directory = r'D:\sad'
+pdf_directory = r'D:\path\to\pdf_directory'
 
 def get_book_metadata(isbn):
     """Fetch book title and author from Google Books API."""
